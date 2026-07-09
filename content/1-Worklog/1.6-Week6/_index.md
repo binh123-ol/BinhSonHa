@@ -1,57 +1,38 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
+* Consolidate core technical knowledge across all 6 previously learned AWS modules.
+* Collaborate with the project group to analyze Module 7 on project architecture blueprinting.
+* Understand how to combine isolated cloud services into a unified, secure, and production-ready system.
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Comprehensive review of baseline infrastructure modules: <br>&emsp; + Module 1 (IAM/Security Boundaries) <br>&emsp; + Module 2 (VPC Custom Networking topologies) | 05/25/2026 | 05/25/2026      |
+| 3   | - Comprehensive review of application hosting and scaling modules: <br>&emsp; + Module 3 (EC2 Compute & S3/EBS Storage tiers) <br>&emsp; + Module 4 (High Availability with ALB & Auto Scaling Group) | 05/26/2026 | 05/26/2026      |  |
+| 4   | - Comprehensive review of modern cloud deployment frameworks: <br>&emsp; + Module 5 (DevOps automation using CloudFormation, Docker & ECS Fargate) <br>&emsp; + Module 6 (Serverless integration with Lambda & API Gateway) | 05/27/2026 | 05/27/2026      |  |
+| 5   | - Conduct a mandatory team workshop focusing on **Module 7 (Project Architecture)**: <br>&emsp; + Map out full-stack application data flows <br>&emsp; + Discuss service integration boundaries and IAM cross-service roles | 05/28/2026 | 05/28/2026      | <https://youtu.be/uYCW51_pBBA?si=rQRnYaCWtqVOadkj> |
+| 6   | - **Practice (Project Blueprinting):** <br>&emsp; + Collaborate with group members to sketch and validate a multi-tier project architecture diagram <br>&emsp; + Perform initial verification of Git workflows for project collaboration | 05/29/2026 | 05/29/2026      |  |
+| 7   | - **Community Engagement & Knowledge Review:** <br>&emsp; + Attend the FCAJ networking event to connect with other cloud peers <br>&emsp; + Host a final team review session to clear up blockers and ambiguous topics across Modules 1–6 | 05/30/2026 | 05/30/2026      | Community Event & Team Synch |
 
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Cross-Module Knowledge Consolidation:**
+    * Successfully synthesized core foundational concepts spanning Cloud Security (IAM), Networking (VPC), Compute (EC2), and Storage (S3/EBS).
+    * Reviewed and aligned elasticity paradigms (ALB/ASG) with automated modern delivery models (DevOps/ECS Fargate) and Serverless frameworks.
+* **Team Synergy & Collaborative Learning:**
+    * Executed a structured group study session to dissect **Module 7**, establishing a shared understanding of live cloud project planning.
+    * Aligned team members on project code governance, ensuring consistent Git branching and review protocols.
+* **Full-Stack Project Blueprinting:**
+    * Mastered the ability to transition from provisioning single isolated services to blueprinting an integrated **Full-Stack Systems Architecture**.
+    * Designed an end-to-end data flow path mapping client requests from edge routing (API Gateway) down to isolated backend worker nodes and secure database layers.
+* **Community Networking & Engagement:**
+    * Participated actively in the **FCAJ Networking Event**, exchanging practical cloud deployment experiences and expanding professional connections with other FCAJ-ers.
+    * Leveraged community insights to validate and optimize the group's planned architectural workflow patterns.

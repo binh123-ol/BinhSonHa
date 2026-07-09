@@ -1,57 +1,38 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-15
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Review comprehensive feedback from senior mentors to identify architectural bottlenecks and logical gaps.
+* Refactor and optimize the AI-powered English Scoring System architecture diagram based on expert reviews.
+* Finalize the official AWS service stack and distribute clear, actionable development tasks among team members.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Aggregate and categorize all design feedback and optimization notes received from senior mentors <br> - Isolate critical architectural issues requiring immediate adjustments | 06/15/2026 | 06/15/2026      | Mentor Evaluation Notes |
+| 3   | - **Architecture Refactoring (Day 1):** Rectify networking and security bugs in the diagram (e.g., subnet isolation, IAM boundary roles, and data flow sequences) | 06/16/2026 | 06/16/2026      | Lucidchart / AWS Best Practices |
+| 4   | - **Architecture Refactoring (Day 2):** Finalize the system blueprint and verify integration points between computing nodes, media buckets, and external AI endpoints | 06/17/2026 | 06/17/2026     | Refactored System Diagram |
+| 5   | - Freeze the project roadmap and map specific product requirements to concrete AWS services (e.g., EC2/Fargate, S3, RDS/DynamoDB, Lambda, Bedrock API) | 06/18/2026 | 06/18/2026      |  |
+| 6   | - Conduct an internal group alignment meeting to establish task delegation matrices based on member skills <br> - Assign detailed roles for Frontend, Backend, and DevOps/Cloud Infrastructure setups | 06/19/2026 | 06/19/2026      |  |
 
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Mentor Feedback Absorption:**
+    * Successfully evaluated structural reviews from senior mentors, translating raw advice into a concrete architectural remediation plan.
+    * Identified and documented hidden cost vectors and security exposures within the initial system design.
+* **Architectural Optimization & Bug Fixing:**
+    * Refactored the end-to-end **Full-Stack Architecture Diagram**, resolving critical network layer bugs and decoupling tight cross-service dependencies.
+    * Validated secure media upload pathways and asynchronous processing lifecycles for high-throughput language payloads.
+* **Definitive AWS Service Mapping:**
+    * Locked down the production-ready infrastructure stack, choosing exact services to power application hosting, streaming data, and generative AI feedback.
+    * Ensured all chosen cloud components fall safely within budget boundaries while maintaining target performance benchmarks.
+* **Structured Work Division & Roadmap Alignment:**
+    * Formulated a transparent task delegation matrix, splitting implementation duties across Frontend interfaces, Backend endpoints, and DevOps pipelines.
+    * Established an organized tracking framework on the project board to manage upcoming development milestones and individual accountability.

@@ -1,125 +1,96 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Sự kiện 2"
+date: 2026-05-30
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Báo cáo tổng kết: “Tech Innovation & Soft Skills Integration Day”
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Mục tiêu sự kiện
 
-### Mục Đích Của Sự Kiện
+- **Tích hợp kỹ năng mềm cốt lõi:** Lồng ghép các kỹ năng mềm thiết yếu và các khung hành vi vào một hệ sinh thái công nghệ chuyên nghiệp.
+- **Triển khai giáo dục game hóa (Gamified):** Giới thiệu các phương pháp game hóa để tăng tốc và tối ưu hóa lộ trình đào tạo và làm quen với AWS cloud.
+- **Góc nhìn về thiết kế nguyên mẫu nhanh:** Chia sẻ các bản thiết kế thực tế và kiến trúc thực tế từ các dự án hackathon nội bộ xuất sắc dưới áp lực thời gian lớn.
+- **Quản lý rủi ro sản phẩm:** Phân tích sự phình to phạm vi (scope creep) có hệ thống, nợ hạ tầng và các chi phí kỹ thuật ẩn khi triển khai các tính năng ứng dụng.
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Diễn giả
 
-### Danh Sách Diễn Giả
+- **Nghĩa Trần** – Giám đốc Dự án & Chuyên gia Văn hóa Số
+- **Nguyễn Thị Quỳnh Như** – Trưởng bộ phận Đào tạo & Phát triển Tài năng
+- **Khắc Uy Phạm** – Nhà tâm lý học hành vi & Chuyên gia quản lý hiệu suất
+- **Huỳnh Thái Linh** – AWS Solutions Architect / Giảng viên Điện toán đám mây
+- **Đại diện các đội (The Ballers, SynthHunter, Vortex)** – Các kỹ sư phần mềm đạt thứ hạng cao trong Hackathon
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### Các điểm nhấn chính
 
-### Nội Dung Nổi Bật
+#### Vượt qua rào cản tâm lý & giao tiếp
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+- **Từ khóa:** Thiếu tự tin (Confidence Deficit), Bảo vệ kiến trúc (Architecture Defense), Tảng băng trì hoãn (Procrastination Iceberg), Tâm lý học thất bại (Psychology of Failure).
+- **Giải thích:** Vượt qua các rào cản giao tiếp để tự tin bảo vệ kiến trúc kỹ thuật của mình và quản lý sự lo lắng/sợ thất bại để loại bỏ sự chậm trễ dự án kéo dài.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### Game hóa đám mây & Số hóa văn hóa
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+- **Từ khóa:** AWS Cloud Quest, Floci, Mô phỏng 3D, Dự án Tử Vi Đại Việt.
+- **Giải thích:** Thay thế đào tạo khô khan bằng các mô phỏng trò chơi 3D (VPC, IAM, EC2) và áp dụng các framework lưu trữ đám mây để mở rộng quy mô các mô hình dữ liệu văn hóa phức tạp.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### Thực thi Hackathon thực tế
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+- **Từ khóa:** Tạo nguyên mẫu MVP, Ràng buộc 24-36 giờ, Tích hợp đa dịch vụ, Gắn kết đám mây.
+- **Giải thích:** Nhanh chóng lắp ráp và đóng gói các tài nguyên tính toán, lưu trữ và serverless AWS thành một pipeline sản phẩm hoạt động được dưới các ràng buộc thời gian nghiêm ngặt.
 
-#### Domain-Driven Design (DDD)
+#### Product Management: Chi phí ẩn của "Các tính năng đơn giản"
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- **Từ khóa:** Phình to phạm vi (Scope Creep), Nút thắt cổ chai cơ sở dữ liệu, Lỗ hổng bảo mật biên, Bất thường hóa đơn.
+- **Giải thích:** Phân tích cách những thay đổi nhỏ ở frontend làm phình to dữ liệu backend, các lỗ hổng bảo mật do vội vàng cấu hình firewall và nợ kỹ thuật dài hạn.
 
-#### Event-Driven Architecture
+### Bài học cốt lõi
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### Tư duy thiết kế & Phát triển cá nhân
 
-#### Compute Evolution
+- **Kỹ năng mềm thúc đẩy sự thăng tiến:** Vượt qua sự trì hoãn cá nhân và làm chủ kỹ năng thuyết trình là yếu tố then chốt để bảo vệ thành công các giải pháp và thăng tiến trong các vai trò kỹ thuật.
+- **Mô hình học tập chủ động:** Sử dụng game hóa đám mây (AWS Cloud Quest) để mô phỏng các lỗi môi trường và xây dựng phản xạ xử lý sự cố hệ thống nhanh chóng.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Kiến trúc kỹ thuật & Quản lý hệ thống
 
-#### Amazon Q Developer
+- **Đánh giá hạ tầng trước khi viết mã (Pre-Code Assessment):** Đánh giá tác động hệ thống của một tính năng (khả năng mở rộng, nút thắt cổ chai lưu trữ, an toàn biên) trước khi thực thi bất kỳ dòng mã nguồn nào.
+- **Kiến trúc MVP tinh gọn (Lean MVP):** Thích ứng với các ràng buộc của hackathon bằng cách lược bỏ các cấu hình không cần thiết để ưu tiên các luồng công việc cốt lõi và rút ngắn thời gian đưa sản phẩm ra thị trường (time-to-market).
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+#### Chiến lược hiện đại hóa & Tối ưu hóa
 
-### Những Gì Học Được
+- **Thiết kế tối ưu hóa chi phí ngay từ đầu:** Bảo vệ hệ thống trước các chi phí đám mây phát sinh bằng cách giám sát việc mở rộng quy mô tài nguyên và tránh sử dụng các instance tính toán quá lớn.
+- **Đồng bộ giữa Kinh doanh và Công nghệ:** Thiết kế cơ sở hạ tầng đám mây bám sát các mục tiêu kinh doanh của doanh nghiệp và tối ưu hóa trải nghiệm người dùng.
 
-#### Tư Duy Thiết Kế
+### Ứng dụng vào công việc
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- **Các bài thực hành đám mây thực tế:** Sử dụng AWS Cloud Quest song song với các bài lab thực tập hàng tuần để củng cố kiến thức chia subnet, cấu hình VPC và thiết lập ranh giới IAM nghiêm ngặt.
+- **Quản lý công việc & Thời gian:** Áp dụng lập lịch chủ động cho các nhiệm vụ thực tập để gửi tài liệu kỹ thuật chính xác và giảm thiểu sự chậm trễ trong phát triển.
+- **Thiết kế Backend chú trọng chi phí:** Đánh giá các database hook và API logic trong quá trình phát triển backend để giảm thiểu mức tiêu thụ tài nguyên và chi phí đám mây.
 
-#### Kiến Trúc Kỹ Thuật
+### Trải nghiệm sự kiện
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+Tham dự "Tech Innovation & Soft Skills Integration Day" đã mang lại một góc nhìn vô giá về các yêu cầu để trở thành một kỹ sư hệ thống hiện đại toàn diện:
 
-#### Chiến Lược Hiện Đại Hóa
+#### Các hiểu biết đa ngành
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Học hỏi các bài học kỹ thuật quý giá trải dài từ tâm lý học con người, hiệu suất làm việc của lập trình viên, cho đến các framework điều phối đám mây tiên tiến.
+- Nhận thức được tầm quan trọng cốt lõi của việc xây dựng kỹ năng giao tiếp cá nhân mạnh mẽ khi làm việc trong các đội ngũ kỹ thuật tinh nhuệ.
 
-### Ứng Dụng Vào Công Việc
+#### Phương pháp học tập hấp dẫn
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Phát hiện qua AWS Cloud Quest rằng kỹ thuật hệ thống đám mây phức tạp có thể được làm chủ hiệu quả thông qua các mô phỏng game thực tế, dựa trên tình huống.
 
-### Trải nghiệm trong event
+#### Nhận thức về quản trị hệ thống
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Buổi chia sẻ về chi phí ẩn của tính năng đã thay đổi tư duy viết code của tôi; mỗi dòng logic backend đều ảnh hưởng đến dòng tiền của doanh nghiệp và mức độ bảo mật đám mây.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Bài học chính
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+- Trong khi các kỹ năng kỹ thuật cứng giúp xây dựng hệ thống, các kỹ năng mềm trong giao tiếp và tư duy quản trị chi phí hợp lý sẽ quyết định sự ổn định vòng đời của sản phẩm trong môi trường production.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+#### Một số hình ảnh sự kiện
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+![](/images/z7992598036430_cbf56d8f54f8657154b67b90f5215367.jpg)
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+**Kết luận:** Sự kiện này đã định hình lại các mục tiêu phát triển của tôi, chứng minh rằng các kỹ sư phần mềm xuất sắc phải cân bằng giữa việc làm chủ kỹ thuật đám mây với quản trị thời gian, kỹ năng mềm sắc bén và nhận thức tài chính về chi phí.

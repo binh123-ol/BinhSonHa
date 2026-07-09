@@ -1,126 +1,89 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-05-30
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Tech Innovation & Soft Skills Integration Day”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- **Core Soft Skills Integration:** Embedding essential soft skills and behavioral frameworks into a professional technology ecosystem.
+- **Gamified Education Deployment:** Introducing gamification methods to accelerate and optimize AWS cloud training and onboarding paths.
+- **Rapid Prototyping Insights:** Sharing practical blueprints and real-world architectures from top-tier internal hackathon projects under high time pressure
+- **Product Risk Management:** Breaking down systematic scope creep, infrastructure debt, and hidden engineering costs when deploying application features.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Nghĩa Trần** – Project Director & Digital Culture Specialist
+- **Nguyễn Thị Quỳnh Như** – Head of Training & Talent Development
+- **Khắc Uy Phạm** – Behavioral Psychologist & Performance Management Expert
+- **Huỳnh Thái Linh** – AWS Solutions Architect / Cloud Computing Instructor
+- **Team Representatives (The Ballers, SynthHunter, Vortex)** – Top-ranking Hackathon Software Engineers
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Overcoming Psychological & Communication Barriers
+- **Keywords:** Confidence Deficit, Architecture Defense, Procrastination Iceberg, Psychology of Failure.
+- **Explanation:** Overcoming communication blocks to confidently defend technical architectures and managing anxiety/fear of failure to eliminate chronic project delays.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### Cloud Gamification & Cultural Digitization
+- **Keywords:** AWS Cloud Quest, Floci, 3D Simulation, Tu Vi Dai Viet Project.
+- **Explanation:** Replacing dry training with 3D game simulations (VPC, IAM, EC2) and applying cloud storage frameworks to scale complex cultural data models.
 
-#### Transitioning to modern application architecture – Microservices
+#### Real-World Hackathon Execution
+- **Keywords:** MVP Prototyping, 24-36h Constraint, Multi-Service Integration, Cloud Cohesion.
+- **Explanation:** Rapidly assembling and packaging compute, storage, and serverless AWS resources into a functional product pipeline under tight constraints.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
-
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### Product Management: Hidden Costs of "Simple Features"s
+- **Keywords:** Scope Creep, Database Bottlenecks, Perimeter Vulnerabilities, Billing Anomalies.
+- **Explanation:** Analyzing how minor frontend changes cause backend data bloating, security gaps from rushed firewall rules, and long-term technical debt.
 
 ### Key Takeaways
 
-#### Design Mindset
+#### Design & Personal Growth Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Soft Skills Drive Upward Mobility:** Overcoming personal delays and mastering presentation skills are crucial to championing solutions and advancing in engineering roles. 
+- **Active Learning Models:** Utilizing cloud gamification (AWS Cloud Quest) to simulate environment errors and build rapid system troubleshooting reflexes.
 
-#### Technical Architecture
+#### Technical Architecture & System Management
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Pre-Code Infrastructure Assessment:** Evaluating a feature's systemic impact (scalability, storage bottlenecks, edge safety) before executing any source code. 
+- **Lean MVP Architectures:** Adapting hackathon constraints by stripping non-essential configurations to prioritize baseline workflows and shorten time-to-market. 
 
-#### Modernization Strategy
+#### Modernization& Optimization Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- **Cost-Optimized Design Inception:** Shielding systems against cloud cost overheads by monitoring resource scaling and avoiding oversized compute instances. 
+- **Aligning Business and Technology:** Designing cloud infrastructure strictly to achieve corporate business targets and optimize user experience.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Practical Cloud Labs:** Using AWS Cloud Quest alongside weekly internship labs to reinforce subnetting, VPC configurations, and strict IAM boundaries. 
+- **Task & Time Management:** Applying proactive scheduling to internship duties to ship technical documentation accurately and mitigate development delays.
+- **Cost-Aware Backend Design:** Evaluating database hooks and API logic during backend development to minimize resource consumption and cloud overhead.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the "Tech Innovation & Soft Skills Integration Day" provided an invaluable perspective on the requirements of being a complete modern systems engineer:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Multi-Disciplinary Insights
+- Learned valuable engineering lessons spanning human psychology, developer throughput, and advanced cloud orchestration frameworks.
+- Realized the critical importance of building strong personal communication skills when operating inside elite technical teams.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Engaging Learning Methods
+- Discovered through AWS Cloud Quest that complex cloud system engineering can be mastered efficiently via practical, scenario-based game simulations.  
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### System Stewardship Awareness
+- The session on hidden feature costs changed my coding mindset; every line of backend logic impacts corporate cash flows and cloud security stances.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+#### Key Lesson
+- While hard tech skills build systems, soft communication skills and sound cost-governance mindsets determine a product's lifecycle stability in production.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
 
 #### Some event photos
-*Add your event photos here*  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![](/images/z7992598036430_cbf56d8f54f8657154b67b90f5215367.jpg)
+
+Conclusion: This event effectively reshaped my development goals, proving that elite software engineers must balance technical cloud mastery with time governance, sharp soft skills, and financial cost-awareness.

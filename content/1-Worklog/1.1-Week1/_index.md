@@ -1,57 +1,46 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand the fundamental principles of Cloud Computing and map out the AWS global footprint.
+* Gain hands-on familiarity with accessing AWS resources using both the Management Console and the AWS CLI.
+* Establish a secure initial account perimeter using identity governance and cost control guardrails.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 04/20/2026 | 04/20/2026      |
+| 3   | - Learn about AWS and overview of Cloud Computing <br>&emsp; + Core cloud concepts <br>&emsp; + Deployment models (Public, Private, Hybrid) <br>&emsp; + Service models (IaaS, PaaS, SaaS)                                             | 04/21/2026 | 04/21/2026      | <https://youtu.be/AQlsd0nWdZk?si=v1cMMDzf5Q4hGMvd> |
+| 4   | - Create AWS Free Tier account <br> - Learn about AWS budget <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Hands on Cost Management with AWS Budget | 04/22/2026 | 04/22/2026      | |
+| 5   | - Learn AWS Global Infrastructure: Understanding how data replication works across distinct data centers isolated by fault lines                        | 04/23/2026 | 04/23/2026      |  |
+| 6   | - **Practice:** <br>&emsp; + Create IAM user & IAM group <br>&emsp; + Create role(AWS Managed Policies) <br>&emsp; + Write a basic JSON Policy file to restrict | 04/24/2026 | 04/24/2026      |  |
 
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Cloud Fundamentals Mastery:** 
+  * Fully understood core Cloud Computing concepts
+  * Distinguishing effectively between deployment models (Public, Private, Hybrid)
+  * Service models (IaaS, PaaS, SaaS).
 
-* Successfully created and configured an AWS Free Tier account.
+* **Global Infrastructure Awareness:** Grasped the architecture of AWS Global Infrastructure, including the operational differences and data replication mechanisms between Regions and Availability Zones (AZs).
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Account Secure Provisioning:** 
+ * Successfully initiated an AWS Free Tier account
+ * Establishing baseline budget thresholds and cost tracking alerts utilizing **AWS Budgets** to prevent unexpected billing.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Identity & Access Management (IAM) Implementation:** 
+  * Implemented robust security perimeters by configuring Multi-Factor Authentication (MFA)
+  * Isolating the Root account, and practicing the Principle of Least Privilege through creating dedicated **IAM Users**, **Groups**, and **Roles**
 
-* Used AWS CLI to perform basic operations such as:
+* **Policy Customization:** Acquired hands-on experience in writing and evaluating custom **JSON Policy files** to precisely enforce resource access restrictions based on specific corporate conditions.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Dual-Interface Proficiency:** 
+  * Navigated fluidly between the AWS Management Console and the **AWS CLI** to verify security configurations
+  * Manage IAM identities, and validate active account permissions in parallel.

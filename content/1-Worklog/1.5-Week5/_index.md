@@ -1,57 +1,39 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-18
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand the design paradigms of Serverless, Event-Driven Architectures (EDA) on AWS.
+* Master the creation, security, and routing of cloud APIs without managing underlying server software.
+* Gain hands-on experience in connecting and integrating Generative AI Foundation Models into live applications.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn Serverless Compute with AWS Lambda (**Module 6**): <br>&emsp; + FaaS (Function-as-a-Service) lifecycle and event triggers <br>&emsp; + Managing cold starts, execution timeouts, and IAM execution roles  | 05/18/2026 | 05/18/2026      |<https://youtu.be/OOD2RwWuLRw?si=XiHxdCwSLCAqH1kt>|
+| 3   | - **Practice (Serverless Compute & Storage):** <br>&emsp; + Author an AWS Lambda function (Python/Node.js) triggered by an Amazon S3 object upload event <br>&emsp; + Configure environment variables and log streams via CloudWatch | 05/19/2026 | 05/19/2026      |  |
+| 4   | - Learn API Gateway & Event Integration (**Module 6**): <br>&emsp; + REST vs. HTTP API routing topologies inside Amazon API Gateway <br>&emsp; + Configuring CORS, Throttling rules, and Stage deployments| 05/20/2026 | 05/20/2026      |  |
+| 5   | - Learn Generative AI & Foundational Models on AWS (**Module 6**): <br>&emsp; + Amazon Bedrock service overview and available model families (Claude, Llama) <br>&emsp; + Introduction to Prompt Engineering and RAG patterns  | 05/21/2026 | 05/21/2026      |  |
+| 6   | - **Practice (AI-Powered Serverless Application):** <br>&emsp; + Build an end-to-end API pipeline: API Gateway ➡️ Lambda ➡️ Amazon Bedrock API <br>&emsp; + Implement an AI feedback mechanism to process user payloads and return data |05/22/2026 | 05/22/2026     |  |
 
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Event-Driven Serverless Compute:**
+    * Mastered FaaS mechanics by writing decoupled, state-free logic routines inside **AWS Lambda**.
+    * Configured automated event handlers to trigger compute logic asynchronously based on upstream storage adjustments.
+    * Controlled application execution environments via customized runtime timeouts and granular execution roles.
+* **API Gateways & Interface Management:**
+    * Architected highly available interface endpoints utilizing **Amazon API Gateway** to proxy safe requests down to backend infrastructure.
+    * Enforced operational safety parameters including Cross-Origin Resource Sharing (CORS) rules and API throttling to prevent payload manipulation.
+    * Managed release lifecycles through distinct stage configurations (Dev, Staging, Prod).
+* **Generative AI System Integration:**
+    * Interacted programmatically with advanced large language models (LLMs) via unified **Amazon Bedrock** API calls.
+    * Gained practical insight into structural prompt handling and managing model attributes (temperature, maximum token limits).
+* **End-to-End Solutions Architecture:**
+    * Engineered a complete, operational serverless application stack that successfully handles client API requests, infuses dynamic AI evaluations, and processes responses with near-zero cold infrastructure idle costs.
