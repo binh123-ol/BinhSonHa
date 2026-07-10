@@ -1,4 +1,5 @@
-﻿title: "Nhật ký công việc Tuần 10"
+﻿---
+title: "Nhật ký công việc Tuần 10"
 date: 2026-06-22
 weight: 10
 chapter: false
