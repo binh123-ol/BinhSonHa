@@ -1,37 +1,36 @@
-﻿---
-title: "Nhật ký công việc Tuần 8"
-date: 2026-06-08
-weight: 8
+﻿title: "Nhật ký công việc Tuần 10"
+date: 2026-06-22
+weight: 10
 chapter: false
-pre: " <b> 1.8. </b> "
+pre: " <b> 1.10. </b> "
 ---
 
-### Mục tiêu Tuần 8:
+### Mục tiêu Tuần 10:
 
-* Thảo luận và tổng hợp các ý tưởng dự án sáng tạo trong nhóm để xác định phạm vi hệ thống cụ thể.
-* Nghiên cứu, thiết kế và lập bản thiết kế cho Hệ thống chấm điểm tiếng Anh ứng dụng AI tận dụng hạ tầng đám mây AWS.
-* Thẩm định tính khả thi về mặt kỹ thuật của kiến trúc hệ thống đề xuất thông qua sự đánh giá từ mentor cấp cao.
+* Triển khai các chính sách quản trị đám mây chi tiết theo các tiêu chuẩn bảo mật nghiêm ngặt của doanh nghiệp.
+* Thiết lập quy trình xác thực người dùng an toàn và trao đổi mã thông báo định danh (identity token) tạm thời cho phía client.
+* Khởi tạo các vùng lưu trữ đám mây được tối ưu hóa và cấu hình kiểm soát chia sẻ tài nguyên giữa các nguồn gốc (CORS) cụ thể.
 
 ### Các công việc cần thực hiện trong tuần này:
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Tiến hành buổi workshop đầu tiên của nhóm để trình bày các ý tưởng dự án cá nhân <br> - Sàng lọc và tổng hợp các khái niệm dựa trên nhu cầu thị trường và năng lực của nhóm | 06/08/2026 | 06/08/2026      | Ý tưởng nội bộ nhóm |
-| 3   | - Tiến hành cuộc họp đồng bộ nhóm thứ hai để chốt các tính năng cốt lõi của hệ thống <br> - Tóm tắt phạm vi dự án chính thức và đối tượng người dùng mục tiêu | 06/09/2026 | 06/09/2026      | Tài liệu chia sẻ của nhóm |
-| 4   | - **Giai đoạn nghiên cứu (Ngày 1):** Tìm hiểu các dịch vụ AWS phù hợp cho Hệ thống chấm điểm tiếng Anh (ví dụ: lưu trữ dữ liệu âm thanh/văn bản, xử lý logic chấm điểm và tích hợp GenAI) | 06/10/2026 | 06/10/2026      | Tài liệu sản phẩm AWS |
-| 5   | - **Giai đoạn nghiên cứu (Ngày 2):** Phác thảo luồng dữ liệu ban đầu của hệ thống và khám phá các mô hình xử lý bất đồng bộ để phản hồi AI theo thời gian thực | 06/11/2026 | 06/11/2026      | Tech Blogs & Kiến trúc đám mây |
-| 6   | - **Giai đoạn nghiên cứu (Ngày 3):** Phác thảo và mô hình hóa sơ đồ kiến trúc hệ thống full-stack <br> - Thiết kế ranh giới mạng an toàn và các chính sách quản trị truy cập | 06/12/2026 | 06/12/2026      | Lucidchart / Draw.io |
+| 2   | - **Thực hành (Ranh giới bảo mật AWS IAM):** <br>&emsp; + Viết các execution role tuân thủ chặt chẽ *Nguyên tắc trao quyền tối thiểu* <br>&emsp; + Giới hạn AWS Lambda chỉ có quyền ghi trên các mục tiêu cụ thể <br>&emsp; + Ràng buộc AWS Step Functions chỉ được kích hoạt các tác vụ workflow được chỉ định | 06/22/2026 | 06/22/2026      |  |
+| 3   | - **Thực hành (AWS Cognito - Tầng xác thực Authentication):** <br>&emsp; + Cấu hình một Amazon Cognito User Pool để xử lý luồng đăng ký và đăng nhập <br>&emsp; + Định nghĩa các mẫu thuộc tính tùy chỉnh và phạm vi xác thực mã thông báo (token validation scopes) | 06/23/2026 | 06/23/2026      |  |
+| 4   | - **Thực hành (AWS Cognito - Tầng ủy quyền Authorization):** <br>&emsp; + Thiết lập một Identity Pool để ánh xạ các thông tin định danh đã xác thực thành các thông tin xác thực AWS tạm thời (temporary credentials) an toàn <br>&emsp; + Liên kết các hồ sơ client động với các tác vụ frontend bị giới hạn quyền | 06/24/2026 | 06/24/2026      | |
+| 5   | - **Thực hành (Bộ lưu trữ đầu vào Amazon S3):** <br>&emsp; + Khởi tạo bucket hạ tầng lưu trữ dữ liệu bài luận thô (raw essays) <br>&emsp; + Áp dụng các lớp mã hóa phía máy chủ (server-side encryption) và kích hoạt các quy tắc quản lý phiên bản bucket (bucket versioning) | 06/25/2026 | 06/25/2026      |  |
+| 6   | - **Thực hành (Luồng tải lên tài nguyên an toàn):** <br>&emsp; + Viết cấu hình CORS rõ ràng để cho phép tải lên an toàn giữa các nguồn gốc từ domain frontend AWS Amplify <br>&emsp; + Xác báp luồng nạp tệp trực tiếp an toàn thông qua **Presigned URLs** | 06/26/2026 | 06/26/2026      | |
 
-### Kết quả đạt được trong Tuần 8:
+### Kết quả đạt được trong Tuần 10:
 
-* **Tổng hợp Ý tưởng & Thống nhất Nhóm:**
-    * Thúc đẩy thành công 2 ngày workshop cộng tác liên tiếp để trình bày, tranh luận và tổng hợp các khái niệm phần mềm độc đáo.
-    * Thu hẹp thành công các lựa chọn để thiết lập một định hướng dự án đồng nhất, đảm bảo sự đồng thuận hoàn toàn giữa cả 4 thành viên trong nhóm.
-* **Nghiên cứu Hệ thống Chấm điểm Tiếng Anh:**
-    * Dành 3 ngày chuyên sâu để nghiên cứu các thành phần cloud-native cần thiết nhằm xử lý các tác vụ đánh giá ngôn ngữ.
-    * Khám phá các mô hình kiến trúc nhiều tầng (multi-tier) để xử lý mượt mà việc lưu trữ đa phương tiện (media storage), logic microservice và các công cụ đánh giá tự động.
-* **Thiết kế Bản vẽ Kiến trúc:**
-    * Phác thảo bản thiết kế hạ tầng đám mây toàn diện (end-to-end), ánh xạ luồng định tuyến yêu cầu của người dùng xuống các phân vùng cô lập dữ liệu.
-    * Áp dụng các nguyên tắc kiến trúc cốt lõi để đảm bảo phản hồi có độ trễ thấp và ranh giới lưu trữ dữ liệu đáng tin cậy.
-* **Thẩm định & Tối ưu hóa cùng Mentor:**
-    * Trình bày đề xuất hệ thống với mentor kỹ thuật, nhận được các đánh giá chuyên môn về kiến trúc và lời khuyên tối ưu hóa.
-    * Ghi nhận các phản hồi về hiệu quả chi phí và các tham số bảo mật để tinh chỉnh ngay lập tức lộ trình thực hiện dự án.
+* **Quản lý Truy cập Quyền tối thiểu:**
+    * Áp dụng ma trận kiểm soát truy cập liên dịch vụ chi tiết bằng cách viết các **AWS IAM Role** theo từng ngữ cảnh cụ thể.
+    * Cô lập hiệu quả môi trường thực thi điện toán, đảm bảo logic nền của Lambda chỉ có thể tương tác với các tài nguyên lưu trữ được chỉ định, đồng thời giới hạn các bước điều phối (orchestration steps) trong các đường dẫn thực thi nghiêm ngặt.
+* **Triển khai Hạ tầng Định danh:**
+    * Xây dựng thành công quy trình quản lý đăng ký và đăng nhập của người dùng bằng **Amazon Cognito User Pools**.
+    * Cấu hình **Cognito Identity Pools** để cấp phát an toàn các thông tin xác thực AWS tạm thời, rủi ro thấp trực tiếp xuống tầng client mà không làm lộ các bí mật hệ thống (system secrets) nhạy cảm.
+* **Kỹ thuật tầng lưu trữ an toàn:**
+    * Tạo tầng tiếp nhận dữ liệu phi cấu trúc chính bằng cách thiết lập một **Amazon S3 Bucket** chuyên dụng cho các bài luận thô của người dùng.
+    * Tích hợp kiến trúc bảo mật bucket nghiêm ngặt, bao gồm mã hóa đối tượng khi lưu trữ (at rest) và các cơ chế chủ động bảo vệ chống sửa đổi dữ liệu trái phép.
+* **Tích hợp luồng dữ liệu liên nguồn gốc (Cross-Origin):**
+    * Triển khai các **chính sách CORS** nghiêm ngặt nhằm giới hạn lưu lượng truy cập vào công cụ lưu trữ, chỉ chấp nhận từ domain triển khai client được ủy quyền trên AWS Amplify.
+    * Xây dựng chuỗi trình tự tải lên có tính bảo mật cao tận dụng **Presigned URLs**, cho phép các frontend client đưa dữ liệu (payload) trực tiếp vào các nút lưu trữ một cách an toàn.
