@@ -9,23 +9,23 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Họ và tên:** Hà Sơn Bình
+&emsp; **Full Name:** Ha Son Binh
 
-&emsp; **Số điện thoại:** 0989246084
+&emsp; **Phone Number:** 0989246084
 
 &emsp; **Email:** cancung9@gmail.com
 
-&emsp; **Trường:** Đại học công nghệ TP.HCM
+&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Major:** Information Technology
 
-&emsp; **Lớp:** 22DTHC2
+&emsp; **Class:** 22DTHC2
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
+&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 30/07/2026
+&emsp; **Internship Duration:** From April 17, 2026, to July 30, 2026
 
 ![Ảnh đại diện của bạn](/images/z7628949485085_d9cb8adafc86ffdcae2af16c35d21bf4.jpg)
 
