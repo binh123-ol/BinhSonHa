@@ -1,5 +1,5 @@
 baseURL = "https://binh123-ol.github.io/BinhSonHa/"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 defaultContentLanguage = "en"
 
