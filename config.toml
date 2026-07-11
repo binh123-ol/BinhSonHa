@@ -1,6 +1,6 @@
 baseURL = "https://binh123-ol.github.io/BinhSonHa/"
 relativeURLs = true
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
